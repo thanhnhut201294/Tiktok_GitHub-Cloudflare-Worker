@@ -1,5 +1,5 @@
 // Thay thế bằng URL của Cloudflare Worker sau khi triển khai
-const WORKER_API_URL = 'https://[TÊN-CỦA-BẠN].workers.dev/posts'; 
+const WORKER_API_URL = 'https://tikwmcom.thanhnhut201294.workers.dev/posts'; 
 
 async function fetchTikTokData() {
     const username = document.getElementById('username').value.trim();
