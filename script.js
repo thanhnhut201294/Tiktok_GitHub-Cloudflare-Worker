@@ -1,5 +1,6 @@
-// KHÔNG CHỈNH SỬA DÒNG NÀY. Đảm bảo nó được bao quanh bởi dấu nháy đơn ('')
-const WORKER_API_URL = 'https://tikwmcom.thanhnhut201294.workers.dev/posts'; 
+// Thay thế toàn bộ dòng khai báo URL trong script.js
+// SỬ DỤNG DẤU NHÁY KÉP VÀ LOẠI BỎ KHOẢNG TRẮNG THỪA
+const WORKER_API_URL = "https://tikwmcom.thanhnhut201294.workers.dev/posts";
 
 async function fetchTikTokData() {
     const username = document.getElementById('username').value.trim();
